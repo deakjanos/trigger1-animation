@@ -1,0 +1,17 @@
+.display-anim {
+    height: 500px;
+    margin: 12px 0;
+    background: url("clown.png") no-repeat left center #57A6F6;
+    -webkit-animation: test 4s infinite;
+    animation: test 4s infinite;
+}
+@-webkit-keyframes test {
+    50% {
+        background-position: right center;
+    }
+}
+@keyframes test {
+    50% {
+        background-position: right center;
+    }
+}
